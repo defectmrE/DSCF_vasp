@@ -27,7 +27,6 @@ The VASP calculations in this repository are related to excited-state defect com
 ## Requirements
 
 - **VASP 5.4.4**  
-  (Note: Be sure to apply the DSCF patch provided in this repository.)
 
 - **Python 3.x**  
   Required for running the `orderWfcs.py` script.
