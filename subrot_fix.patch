@@ -1,0 +1,11 @@
+--- ../5.4.4_original/src/main.F	2021-09-18 19:18:03.051211000 +0200
++++ src/main.F	2021-11-12 17:09:56.008005446 +0100
+@@ -2476,7 +2476,7 @@
+ !=======================================================================
+       E%EENTROPY=0
+ 
+-      IF ((INFO%LONESW .AND. KPOINTS%ISMEAR/=-2) .OR. (INFO%IALGO==3 .AND. KPOINTS%ISMEAR/=-2)) THEN
++      IF (INFO%LONESW .OR. (KPOINTS%ISMEAR/=-2 .AND. INFO%IALGO==3)) THEN
+          E%EENTROPY=0
+          IF (INFO%LONESW) W_F%CELTOT = W%CELTOT
+          CALL DENSTA( IO%IU0, IO%IU6, WDES, W, KPOINTS, INFO%NELECT, &
