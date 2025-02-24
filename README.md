@@ -8,20 +8,20 @@ This repository provides input and output files for VASP calculations used in ex
   Contains VASP input and output files for calculations performed entirely from scratch.
 
 - **hse_restart/**  
-  Contains VASP input and output files for calculations restarted using the HSE hybrid functional.
+  Contains VASP input and output files for calculations restarted using the HSE wavefunction.
 
 - **pbe_restart/**  
-  Contains VASP input and output files for calculations restarted using the PBE functional.
+  Contains VASP input and output files for calculations restarted using the PBE wavefunction.
 
 - **orderWfcs.py**  
-  A Python script designed to order or process wavefunction (WFC) files.
+  A Python script designed to order wavefunction (WAVECAR) files.
 
 - **subrot_fix.patch**  
   A patch file to correct the DSCF behavior in VASP version 5.4.4.
 
 ## Overview
 
-The VASP calculations in this repository are related to excited-state defect computations using the ∆SCF method. For detailed information, tips, and pitfalls related to these calculations, please refer to the document:  
+The VASP calculations in this repository are related to excited-state defect computations using the ∆SCF method. For detailed information, please refer to the document:  
 **"How to perform ∆SCF in VASP for excited-state defect computations: tips and pitfalls."**
 
 ## Requirements
