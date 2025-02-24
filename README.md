@@ -4,13 +4,13 @@ This repository provides input and output files for VASP calculations used in ex
 
 ## Repository Structure
 
-- **from_scratch/**  
+- **from_scratch**  
   Contains VASP input and output files for calculations performed entirely from scratch.
 
-- **hse_restart/**  
+- **hse_restart**  
   Contains VASP input and output files for calculations restarted using the HSE wavefunction.
 
-- **pbe_restart/**  
+- **pbe_restart**  
   Contains VASP input and output files for calculations restarted using the PBE wavefunction.
 
 - **orderWfcs.py**  
