@@ -34,7 +34,7 @@ The VASP calculations in this repository are related to excited-state defect com
 
 ## Usage
 
-### 1. Applying the DSCF Patch
+### Applying the DSCF Patch
 
 To fix the DSCF behavior in VASP 5.4.4, apply the provided patch file:
 
