@@ -21,7 +21,7 @@ This repository provides input and output files for VASP calculations used in ex
 
 ## Overview
 
-The VASP calculations in this repository are related to excited-state defect computations of neutral SiV$$^0$$ in diamond using the ∆SCF method. For detailed information, please refer to the document:  
+The VASP calculations in this repository are related to excited-state defect computations of neutral SiV<sup>0</sup> in diamond using the ∆SCF method. For detailed information, please refer to the document:  
 **"How to perform ∆SCF in VASP for excited-state defect computations: tips and pitfalls."**
 
 ## Requirements
