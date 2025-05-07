@@ -1,0 +1,739 @@
+ running on  512 total cores
+ distrk:  each k-point on  512 cores,    1 groups
+ distr:  one band on   16 cores,   32 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Dec 19 2024 10:44:08) gamma-only        
+ POSCAR found type information on POSCAR  Si C 
+ POSCAR found :  2 types and     215 ions
+ scaLAPACK will be used
+ LDA part: xc-table for Pade appr. of Perdew
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      The number of bands has been changed from the values supplied          |
+|      in the INCAR file. This is a result of running the parallel version.   |
+|      The orbitals not found in the WAVECAR file will be initialized with    |
+|      random numbers, which is usually adequate. For correlated              |
+|      calculations, however, you should redo the groundstate calculation.    |
+|      I found NBANDS    =      450  now  NBANDS  =     480                   |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ found WAVECAR, reading the header
+  number of bands has changed, file:   464 present:   480
+  trying to continue reading WAVECAR, but it might fail
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ random initialization beyond band           465
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      ALGO=A and IALGO=5X tend to fail with the tetrahedron method           |
+|      (e.g. Bloechls method ISMEAR=-5 is not variational)                    |
+|      please switch to IMSEAR=0-n, except for DOS calculations               |
+|      For DOS calculations use IALGO=53 after preconverging with ISMEAR>=0   |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.855E+00 0.257E+00 0.000E+00 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.240906026981E+04   -0.24091E+04    0.00000E+00   480   0.111E+01 0.000E+00
+ gam= 0.000 trial= 0.400  step= 0.444 mean= 0.400
+ gam= 0.102 g(H,U,f)=  0.916E-01 0.222E-01 0.000E+00 ort(H,U,f) =-0.828E-03-0.203E-01 0.000E+00
+CGA:   2    -0.240930613139E+04   -0.24586E+00   -0.24666E+00   480   0.114E+00-0.211E-01
+ gam= 0.102 trial= 0.402  step= 0.792 mean= 0.402
+ gam= 0.469 g(H,U,f)=  0.325E-01 0.209E-01 0.000E+00 ort(H,U,f) =-0.619E-02 0.314E-02 0.000E+00
+CGA:   3    -0.240935010539E+04   -0.43974E-01   -0.44252E-01   480   0.534E-01-0.305E-02
+ gam= 0.469 trial= 0.422  step= 0.769 mean= 0.422
+ gam= 0.468 g(H,U,f)=  0.195E-01 0.543E-02 0.000E+00 ort(H,U,f) =-0.153E-02 0.644E-03 0.000E+00
+CGA:   4    -0.240936985518E+04   -0.19750E-01   -0.19968E-01   480   0.250E-01-0.882E-03
+ gam= 0.468 trial= 0.439  step= 0.686 mean= 0.439
+ gam= 0.344 g(H,U,f)=  0.647E-02 0.212E-02 0.000E+00 ort(H,U,f) =-0.944E-03 0.857E-03 0.000E+00
+CGA:   5    -0.240937829341E+04   -0.84382E-02   -0.84202E-02   480   0.860E-02-0.879E-04
+ gam= 0.344 trial= 0.451  step= 0.848 mean= 0.451
+ gam= 0.436 g(H,U,f)=  0.271E-02 0.104E-02 0.000E+00 ort(H,U,f) =-0.466E-03 0.450E-03 0.000E+00
+CGA:   6    -0.240938192009E+04   -0.36267E-02   -0.36333E-02   480   0.375E-02-0.163E-04
+ gam= 0.436 trial= 0.471  step= 0.892 mean= 0.471
+ gam= 0.509 g(H,U,f)=  0.132E-02 0.581E-03 0.000E+00 ort(H,U,f) =-0.471E-03 0.454E-03 0.000E+00
+CGA:   7    -0.240938358794E+04   -0.16679E-02   -0.16682E-02   480   0.191E-02-0.166E-04
+ gam= 0.509 trial= 0.492  step= 0.814 mean= 0.492
+ gam= 0.614 g(H,U,f)=  0.769E-03 0.402E-03 0.000E+00 ort(H,U,f) =-0.333E-03 0.327E-03 0.000E+00
+CGA:   8    -0.240938435902E+04   -0.77108E-03   -0.77183E-03   480   0.117E-02-0.668E-05
+ gam= 0.614 trial= 0.508  step= 0.875 mean= 0.508
+ gam= 0.642 g(H,U,f)=  0.478E-03 0.274E-03 0.000E+00 ort(H,U,f) =-0.291E-03 0.291E-03 0.000E+00
+CGA:   9    -0.240938486964E+04   -0.51061E-03   -0.51043E-03   480   0.752E-03 0.212E-06
+ gam= 0.642 trial= 0.527  step= 1.095 mean= 0.527
+ gam= 0.807 g(H,U,f)=  0.454E-03 0.153E-03 0.000E+00 ort(H,U,f) =-0.244E-03 0.238E-03 0.000E+00
+CGA:  10    -0.240938528042E+04   -0.41078E-03   -0.41172E-03   480   0.607E-03-0.618E-05
+ gam= 0.807 trial= 0.555  step= 0.911 mean= 0.555
+ gam= 0.697 g(H,U,f)=  0.326E-03 0.971E-04 0.000E+00 ort(H,U,f) =-0.151E-03 0.150E-03 0.000E+00
+CGA:  11    -0.240938555439E+04   -0.27398E-03   -0.27407E-03   480   0.423E-03-0.988E-06
+ gam= 0.697 trial= 0.573  step= 0.838 mean= 0.573
+ gam= 0.516 g(H,U,f)=  0.183E-03 0.349E-04 0.000E+00 ort(H,U,f) =-0.634E-04 0.634E-04 0.000E+00
+CGA:  12    -0.240938573146E+04   -0.17707E-03   -0.17699E-03   480   0.218E-03-0.365E-07
+ gam= 0.516 trial= 0.586  step= 0.906 mean= 0.586
+ gam= 0.516 g(H,U,f)=  0.924E-04 0.201E-04 0.000E+00 ort(H,U,f) =-0.153E-04 0.139E-04 0.000E+00
+CGA:  13    -0.240938583013E+04   -0.98668E-04   -0.98843E-04   480   0.112E-03-0.144E-05
+ gam= 0.516 trial= 0.602  step= 0.799 mean= 0.602
+ gam= 0.557 g(H,U,f)=  0.502E-04 0.125E-04 0.000E+00 ort(H,U,f) =-0.137E-05 0.105E-05 0.000E+00
+CGA:  14    -0.240938587475E+04   -0.44619E-04   -0.44642E-04   480   0.626E-04-0.313E-06
+ gam= 0.557 trial= 0.612  step= 0.686 mean= 0.612
+ gam= 0.421 g(H,U,f)=  0.224E-04 0.401E-05 0.000E+00 ort(H,U,f) =-0.345E-06 0.101E-06 0.000E+00
+CGA:  15    -0.240938589618E+04   -0.21431E-04   -0.21439E-04   480   0.264E-04-0.244E-06
+ gam= 0.421 trial= 0.616  step= 0.850 mean= 0.616
+ gam= 0.380 g(H,U,f)=  0.862E-05 0.141E-05 0.000E+00 ort(H,U,f) =-0.478E-06 0.630E-06 0.000E+00
+CGA:  16    -0.240938590737E+04   -0.11197E-04   -0.11177E-04   480   0.100E-04 0.152E-06
+ gam= 0.380 trial= 0.627  step= 0.840 mean= 0.627
+ gam= 0.546 g(H,U,f)=  0.431E-05 0.116E-05 0.000E+00 ort(H,U,f) = 0.427E-07 0.239E-07 0.000E+00
+CGA:  17    -0.240938591162E+04   -0.42424E-05   -0.42344E-05   480   0.548E-05 0.666E-07
+ gam= 0.546 trial= 0.638  step= 0.688 mean= 0.638
+   1 F= -.24093859E+04 E0= -.24093859E+04  d E =-.240939E+04  mag=     2.0000
+ BRION: g(F)=  0.930E+00 g(S)=  0.000E+00
+ bond charge predicted
+ writing wavefunctions
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      ALGO=A and IALGO=5X tend to fail with the tetrahedron method           |
+|      (e.g. Bloechls method ISMEAR=-5 is not variational)                    |
+|      please switch to IMSEAR=0-n, except for DOS calculations               |
+|      For DOS calculations use IALGO=53 after preconverging with ISMEAR>=0   |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.243E+02 0.192E+01 0.000E+00 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.239702583023E+04    0.12360E+02    0.00000E+00   480   0.262E+02 0.000E+00
+ gam= 0.000 trial= 0.641  step= 0.753 mean= 0.641
+ gam= 0.275 g(H,U,f)=  0.571E+01 0.150E+01 0.000E+00 ort(H,U,f) =-0.554E+00-0.848E+00 0.000E+00
+CGA:   2    -0.240684971096E+04   -0.98239E+01   -0.98659E+01   480   0.721E+01-0.140E+01
+ gam= 0.275 trial= 0.646  step= 0.457 mean= 0.646
+ gam= 0.281 g(H,U,f)=  0.181E+01 0.222E+00 0.000E+00 ort(H,U,f) = 0.151E+01-0.417E-02 0.000E+00
+CGA:   3    -0.240817809965E+04   -0.13284E+01   -0.15585E+01   480   0.203E+01 0.150E+01
+ gam= 0.281 trial= 0.637  step= 0.541 mean= 0.637
+ gam= 0.435 g(H,U,f)=  0.756E+00 0.126E+00 0.000E+00 ort(H,U,f) = 0.937E-01-0.104E-01 0.000E+00
+CGA:   4    -0.240884022696E+04   -0.66213E+00   -0.66268E+00   480   0.882E+00 0.832E-01
+ gam= 0.435 trial= 0.632  step= 0.423 mean= 0.632
+ gam= 0.437 g(H,U,f)=  0.355E+00 0.301E-01 0.000E+00 ort(H,U,f) = 0.189E-01 0.365E-02 0.000E+00
+CGA:   5    -0.240903252454E+04   -0.19230E+00   -0.19420E+00   480   0.385E+00 0.226E-01
+ gam= 0.437 trial= 0.621  step= 0.430 mean= 0.621
+ gam= 0.536 g(H,U,f)=  0.187E+00 0.197E-01 0.000E+00 ort(H,U,f) = 0.336E-01-0.721E-02 0.000E+00
+CGA:   6    -0.240911398148E+04   -0.81457E-01   -0.84963E-01   480   0.206E+00 0.264E-01
+ gam= 0.536 trial= 0.612  step= 0.406 mean= 0.612
+ gam= 0.577 g(H,U,f)=  0.109E+00 0.103E-01 0.000E+00 ort(H,U,f) = 0.240E-01-0.380E-02 0.000E+00
+CGA:   7    -0.240915618858E+04   -0.42207E-01   -0.44777E-01   480   0.119E+00 0.202E-01
+ gam= 0.577 trial= 0.602  step= 0.370 mean= 0.602
+ gam= 0.551 g(H,U,f)=  0.589E-01 0.679E-02 0.000E+00 ort(H,U,f) = 0.907E-02-0.830E-03 0.000E+00
+CGA:   8    -0.240917948470E+04   -0.23296E-01   -0.24211E-01   480   0.657E-01 0.824E-02
+ gam= 0.551 trial= 0.590  step= 0.329 mean= 0.590
+ gam= 0.552 g(H,U,f)=  0.335E-01 0.272E-02 0.000E+00 ort(H,U,f) = 0.402E-02 0.643E-03 0.000E+00
+CGA:   9    -0.240919024340E+04   -0.10759E-01   -0.11545E-01   480   0.362E-01 0.466E-02
+ gam= 0.552 trial= 0.577  step= 0.350 mean= 0.577
+ gam= 0.689 g(H,U,f)=  0.229E-01 0.212E-02 0.000E+00 ort(H,U,f) = 0.289E-02-0.162E-03 0.000E+00
+CGA:  10    -0.240919656369E+04   -0.63203E-02   -0.67894E-02   480   0.250E-01 0.273E-02
+ gam= 0.689 trial= 0.566  step= 0.326 mean= 0.566
+ gam= 0.623 g(H,U,f)=  0.144E-01 0.112E-02 0.000E+00 ort(H,U,f) = 0.232E-02 0.148E-03 0.000E+00
+CGA:  11    -0.240920056050E+04   -0.39968E-02   -0.43825E-02   480   0.156E-01 0.247E-02
+ gam= 0.623 trial= 0.554  step= 0.291 mean= 0.554
+ gam= 0.624 g(H,U,f)=  0.918E-02 0.526E-03 0.000E+00 ort(H,U,f) = 0.172E-02-0.227E-03 0.000E+00
+CGA:  12    -0.240920280076E+04   -0.22403E-02   -0.24914E-02   480   0.971E-02 0.150E-02
+ gam= 0.624 trial= 0.541  step= 0.296 mean= 0.541
+ gam= 0.764 g(H,U,f)=  0.677E-02 0.653E-03 0.000E+00 ort(H,U,f) = 0.107E-02-0.265E-03 0.000E+00
+CGA:  13    -0.240920422898E+04   -0.14282E-02   -0.15734E-02   480   0.742E-02 0.809E-03
+ gam= 0.764 trial= 0.528  step= 0.274 mean= 0.528
+ gam= 0.758 g(H,U,f)=  0.512E-02 0.503E-03 0.000E+00 ort(H,U,f) = 0.516E-03 0.834E-04 0.000E+00
+CGA:  14    -0.240920523048E+04   -0.10015E-02   -0.11004E-02   480   0.563E-02 0.600E-03
+ gam= 0.758 trial= 0.516  step= 0.243 mean= 0.516
+ gam= 0.726 g(H,U,f)=  0.383E-02 0.259E-03 0.000E+00 ort(H,U,f) = 0.324E-03 0.126E-03 0.000E+00
+CGA:  15    -0.240920588931E+04   -0.65882E-03   -0.73855E-03   480   0.408E-02 0.451E-03
+ gam= 0.726 trial= 0.502  step= 0.231 mean= 0.502
+ gam= 0.780 g(H,U,f)=  0.299E-02 0.195E-03 0.000E+00 ort(H,U,f) = 0.328E-03-0.519E-05 0.000E+00
+CGA:  16    -0.240920633084E+04   -0.44153E-03   -0.51022E-03   480   0.319E-02 0.322E-03
+ gam= 0.780 trial= 0.488  step= 0.221 mean= 0.488
+ gam= 0.807 g(H,U,f)=  0.240E-02 0.172E-03 0.000E+00 ort(H,U,f) = 0.313E-03-0.397E-04 0.000E+00
+CGA:  17    -0.240920665140E+04   -0.32056E-03   -0.37930E-03   480   0.257E-02 0.273E-03
+ gam= 0.807 trial= 0.475  step= 0.207 mean= 0.475
+ gam= 0.794 g(H,U,f)=  0.191E-02 0.129E-03 0.000E+00 ort(H,U,f) = 0.253E-03-0.358E-04 0.000E+00
+CGA:  18    -0.240920689537E+04   -0.24397E-03   -0.28858E-03   480   0.204E-02 0.218E-03
+ gam= 0.794 trial= 0.462  step= 0.197 mean= 0.462
+ gam= 0.806 g(H,U,f)=  0.154E-02 0.107E-03 0.000E+00 ort(H,U,f) = 0.189E-03-0.351E-04 0.000E+00
+CGA:  19    -0.240920708214E+04   -0.18677E-03   -0.21845E-03   480   0.165E-02 0.154E-03
+ gam= 0.806 trial= 0.448  step= 0.190 mean= 0.448
+ gam= 0.823 g(H,U,f)=  0.126E-02 0.934E-04 0.000E+00 ort(H,U,f) = 0.125E-03-0.154E-04 0.000E+00
+CGA:  20    -0.240920722677E+04   -0.14463E-03   -0.16793E-03   480   0.136E-02 0.110E-03
+ gam= 0.823 trial= 0.435  step= 0.181 mean= 0.435
+ gam= 0.827 g(H,U,f)=  0.105E-02 0.688E-04 0.000E+00 ort(H,U,f) = 0.752E-04 0.658E-05 0.000E+00
+CGA:  21    -0.240920733930E+04   -0.11253E-03   -0.13075E-03   480   0.112E-02 0.818E-04
+ gam= 0.827 trial= 0.423  step= 0.173 mean= 0.423
+ gam= 0.846 g(H,U,f)=  0.900E-03 0.486E-04 0.000E+00 ort(H,U,f) = 0.554E-04 0.607E-05 0.000E+00
+CGA:  22    -0.240920742838E+04   -0.89073E-04   -0.10317E-03   480   0.949E-03 0.615E-04
+ gam= 0.846 trial= 0.410  step= 0.168 mean= 0.410
+ gam= 0.876 g(H,U,f)=  0.789E-03 0.427E-04 0.000E+00 ort(H,U,f) = 0.525E-04-0.245E-05 0.000E+00
+CGA:  23    -0.240920750058E+04   -0.72204E-04   -0.83827E-04   480   0.832E-03 0.501E-04
+ gam= 0.876 trial= 0.398  step= 0.158 mean= 0.398
+ gam= 0.864 g(H,U,f)=  0.680E-03 0.385E-04 0.000E+00 ort(H,U,f) = 0.441E-04-0.192E-05 0.000E+00
+CGA:  24    -0.240920756016E+04   -0.59581E-04   -0.69283E-04   480   0.718E-03 0.422E-04
+ gam= 0.864 trial= 0.386  step= 0.149 mean= 0.386
+ gam= 0.842 g(H,U,f)=  0.576E-03 0.285E-04 0.000E+00 ort(H,U,f) = 0.351E-04 0.706E-06 0.000E+00
+CGA:  25    -0.240920760858E+04   -0.48421E-04   -0.56286E-04   480   0.604E-03 0.358E-04
+ gam= 0.842 trial= 0.374  step= 0.144 mean= 0.374
+ gam= 0.850 g(H,U,f)=  0.493E-03 0.207E-04 0.000E+00 ort(H,U,f) = 0.323E-04-0.449E-05 0.000E+00
+CGA:  26    -0.240920764816E+04   -0.39583E-04   -0.45727E-04   480   0.514E-03 0.278E-04
+ gam= 0.850 trial= 0.363  step= 0.143 mean= 0.363
+ gam= 0.879 g(H,U,f)=  0.431E-03 0.206E-04 0.000E+00 ort(H,U,f) = 0.317E-04-0.106E-04 0.000E+00
+CGA:  27    -0.240920768185E+04   -0.33689E-04   -0.38306E-04   480   0.452E-03 0.211E-04
+ gam= 0.879 trial= 0.352  step= 0.141 mean= 0.352
+ gam= 0.890 g(H,U,f)=  0.379E-03 0.231E-04 0.000E+00 ort(H,U,f) = 0.249E-04-0.798E-05 0.000E+00
+CGA:  28    -0.240920771155E+04   -0.29694E-04   -0.33220E-04   480   0.402E-03 0.169E-04
+ gam= 0.890 trial= 0.341  step= 0.138 mean= 0.341
+ gam= 0.861 g(H,U,f)=  0.325E-03 0.210E-04 0.000E+00 ort(H,U,f) = 0.127E-04 0.125E-05 0.000E+00
+CGA:  29    -0.240920773763E+04   -0.26082E-04   -0.28821E-04   480   0.346E-03 0.140E-04
+ gam= 0.861 trial= 0.331  step= 0.136 mean= 0.331
+ gam= 0.838 g(H,U,f)=  0.275E-03 0.147E-04 0.000E+00 ort(H,U,f) = 0.470E-05 0.629E-05 0.000E+00
+CGA:  30    -0.240920775981E+04   -0.22181E-04   -0.24311E-04   480   0.290E-03 0.110E-04
+ gam= 0.838 trial= 0.321  step= 0.135 mean= 0.321
+ gam= 0.850 g(H,U,f)=  0.236E-03 0.102E-04 0.000E+00 ort(H,U,f) = 0.544E-05 0.303E-05 0.000E+00
+CGA:  31    -0.240920777838E+04   -0.18570E-04   -0.20264E-04   480   0.247E-03 0.847E-05
+ gam= 0.850 trial= 0.312  step= 0.137 mean= 0.312
+ gam= 0.000 g(H,U,f)=  0.209E-03 0.986E-05 0.000E+00 ort(H,U,f) = 0.877E-05-0.193E-05 0.000E+00
+SDA:  32    -0.240920779436E+04   -0.15980E-04   -0.17370E-04   480   0.219E-03 0.684E-05
+ gam= 0.000 trial= 0.303  step= 0.984 mean= 0.303
+ gam= 0.277 g(H,U,f)=  0.521E-04 0.855E-05 0.000E+00 ort(H,U,f) = 0.346E-05-0.491E-05 0.000E+00
+CGA:  33    -0.240920790185E+04   -0.10749E-03   -0.10750E-03   480   0.606E-04-0.145E-05
+ gam= 0.277 trial= 0.337  step= 0.618 mean= 0.337
+ gam= 0.247 g(H,U,f)=  0.132E-04 0.173E-05 0.000E+00 ort(H,U,f) = 0.244E-05-0.277E-05 0.000E+00
+CGA:  34    -0.240920792041E+04   -0.18560E-04   -0.18596E-04   480   0.150E-04-0.330E-06
+ gam= 0.247 trial= 0.351  step= 0.770 mean= 0.351
+ gam= 0.339 g(H,U,f)=  0.441E-05 0.668E-06 0.000E+00 ort(H,U,f) = 0.335E-06-0.578E-06 0.000E+00
+CGA:  35    -0.240920792609E+04   -0.56866E-05   -0.57301E-05   480   0.508E-05-0.243E-06
+ gam= 0.339 trial= 0.372  step= 0.752 mean= 0.372
+   2 F= -.24092079E+04 E0= -.24092079E+04  d E =0.177986E+00  mag=     2.0000
+ BRION: g(F)=  0.309E+01 g(S)=  0.000E+00 retain N=  1 mean eig= 0.34
+ eig:   0.337
+ bond charge predicted
+ writing wavefunctions
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      ALGO=A and IALGO=5X tend to fail with the tetrahedron method           |
+|      (e.g. Bloechls method ISMEAR=-5 is not variational)                    |
+|      please switch to IMSEAR=0-n, except for DOS calculations               |
+|      For DOS calculations use IALGO=53 after preconverging with ISMEAR>=0   |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.104E+02 0.576E+00 0.000E+00 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.240455934087E+04    0.46486E+01    0.00000E+00   480   0.109E+02 0.000E+00
+ gam= 0.000 trial= 0.391  step= 0.801 mean= 0.391
+ gam= 0.192 g(H,U,f)=  0.186E+01 0.240E+00 0.000E+00 ort(H,U,f) =-0.534E+00-0.237E+00 0.000E+00
+CGA:   2    -0.240883948071E+04   -0.42801E+01   -0.43783E+01   480   0.210E+01-0.771E+00
+ gam= 0.192 trial= 0.412  step= 0.614 mean= 0.412
+ gam= 0.212 g(H,U,f)=  0.401E+00 0.441E-01 0.000E+00 ort(H,U,f) =-0.114E-01-0.332E-01 0.000E+00
+CGA:   3    -0.240943674417E+04   -0.59726E+00   -0.59764E+00   480   0.445E+00-0.445E-01
+ gam= 0.212 trial= 0.422  step= 0.653 mean= 0.422
+ gam= 0.326 g(H,U,f)=  0.133E+00 0.126E-01 0.000E+00 ort(H,U,f) =-0.424E-02-0.713E-02 0.000E+00
+CGA:   4    -0.240957798407E+04   -0.14124E+00   -0.14223E+00   480   0.145E+00-0.114E-01
+ gam= 0.326 trial= 0.433  step= 0.619 mean= 0.433
+ gam= 0.298 g(H,U,f)=  0.407E-01 0.253E-02 0.000E+00 ort(H,U,f) = 0.695E-03-0.208E-02 0.000E+00
+CGA:   5    -0.240962181257E+04   -0.43829E-01   -0.43780E-01   480   0.432E-01-0.138E-02
+ gam= 0.298 trial= 0.443  step= 0.645 mean= 0.443
+ gam= 0.369 g(H,U,f)=  0.149E-01 0.109E-02 0.000E+00 ort(H,U,f) =-0.360E-03-0.618E-03 0.000E+00
+CGA:   6    -0.240963552998E+04   -0.13717E-01   -0.13810E-01   480   0.160E-01-0.978E-03
+ gam= 0.369 trial= 0.453  step= 0.627 mean= 0.453
+ gam= 0.356 g(H,U,f)=  0.531E-02 0.364E-03 0.000E+00 ort(H,U,f) =-0.114E-03-0.142E-03 0.000E+00
+CGA:   7    -0.240964039729E+04   -0.48673E-02   -0.48876E-02   480   0.568E-02-0.256E-03
+ gam= 0.356 trial= 0.461  step= 0.678 mean= 0.461
+ gam= 0.393 g(H,U,f)=  0.206E-02 0.170E-03 0.000E+00 ort(H,U,f) =-0.368E-04-0.296E-04 0.000E+00
+CGA:   8    -0.240964228718E+04   -0.18899E-02   -0.18941E-02   480   0.223E-02-0.664E-04
+ gam= 0.393 trial= 0.472  step= 0.626 mean= 0.472
+ gam= 0.397 g(H,U,f)=  0.835E-03 0.509E-04 0.000E+00 ort(H,U,f) = 0.309E-04-0.524E-04 0.000E+00
+CGA:   9    -0.240964297534E+04   -0.68816E-03   -0.68952E-03   480   0.885E-03-0.215E-04
+ gam= 0.397 trial= 0.480  step= 0.669 mean= 0.480
+ gam= 0.397 g(H,U,f)=  0.327E-03 0.254E-04 0.000E+00 ort(H,U,f) =-0.661E-05-0.706E-05 0.000E+00
+CGA:  10    -0.240964326744E+04   -0.29210E-03   -0.29320E-03   480   0.352E-03-0.137E-04
+ gam= 0.397 trial= 0.489  step= 0.633 mean= 0.489
+ gam= 0.479 g(H,U,f)=  0.157E-03 0.122E-04 0.000E+00 ort(H,U,f) =-0.122E-05-0.209E-05 0.000E+00
+CGA:  11    -0.240964337685E+04   -0.10941E-03   -0.10964E-03   480   0.169E-03-0.330E-05
+ gam= 0.479 trial= 0.497  step= 0.609 mean= 0.497
+ gam= 0.430 g(H,U,f)=  0.694E-04 0.309E-05 0.000E+00 ort(H,U,f) =-0.536E-06-0.776E-06 0.000E+00
+CGA:  12    -0.240964342770E+04   -0.50856E-04   -0.50926E-04   480   0.725E-04-0.131E-05
+ gam= 0.430 trial= 0.502  step= 0.622 mean= 0.502
+ gam= 0.487 g(H,U,f)=  0.330E-04 0.237E-05 0.000E+00 ort(H,U,f) = 0.313E-06-0.115E-05 0.000E+00
+CGA:  13    -0.240964345003E+04   -0.22325E-04   -0.22371E-04   480   0.353E-04-0.842E-06
+ gam= 0.487 trial= 0.508  step= 0.581 mean= 0.508
+ gam= 0.458 g(H,U,f)=  0.152E-04 0.947E-06 0.000E+00 ort(H,U,f) =-0.242E-06-0.221E-06 0.000E+00
+CGA:  14    -0.240964346015E+04   -0.10118E-04   -0.10137E-04   480   0.162E-04-0.463E-06
+ gam= 0.458 trial= 0.512  step= 0.613 mean= 0.512
+ gam= 0.483 g(H,U,f)=  0.741E-05 0.412E-06 0.000E+00 ort(H,U,f) =-0.237E-06 0.116E-06 0.000E+00
+CGA:  15    -0.240964346504E+04   -0.48922E-05   -0.48982E-05   480   0.783E-05-0.121E-06
+ gam= 0.483 trial= 0.517  step= 0.586 mean= 0.517
+   3 F= -.24096435E+04 E0= -.24096435E+04  d E =-.435539E+00  mag=     2.0000
+ BRION: g(F)=  0.183E+00 g(S)=  0.000E+00 retain N=  1 mean eig= 0.28
+ eig:   0.284
+ bond charge predicted
+ writing wavefunctions
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      ALGO=A and IALGO=5X tend to fail with the tetrahedron method           |
+|      (e.g. Bloechls method ISMEAR=-5 is not variational)                    |
+|      please switch to IMSEAR=0-n, except for DOS calculations               |
+|      For DOS calculations use IALGO=53 after preconverging with ISMEAR>=0   |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.214E+01 0.166E+00 0.000E+00 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.240862183539E+04    0.10216E+01    0.00000E+00   480   0.231E+01 0.000E+00
+ gam= 0.000 trial= 0.520  step= 0.704 mean= 0.520
+ gam= 0.290 g(H,U,f)=  0.537E+00 0.132E+00 0.000E+00 ort(H,U,f) = 0.509E-01-0.101E+00 0.000E+00
+CGA:   2    -0.240943240147E+04   -0.81057E+00   -0.81322E+00   480   0.669E+00-0.504E-01
+ gam= 0.290 trial= 0.530  step= 0.522 mean= 0.530
+ gam= 0.170 g(H,U,f)=  0.977E-01 0.162E-01 0.000E+00 ort(H,U,f) = 0.286E-01-0.160E-01 0.000E+00
+CGA:   3    -0.240960321962E+04   -0.17082E+00   -0.17091E+00   480   0.114E+00 0.126E-01
+ gam= 0.170 trial= 0.529  step= 0.592 mean= 0.529
+ gam= 0.223 g(H,U,f)=  0.231E-01 0.229E-02 0.000E+00 ort(H,U,f) = 0.117E-02-0.148E-02 0.000E+00
+CGA:   4    -0.240963752948E+04   -0.34310E-01   -0.34323E-01   480   0.254E-01-0.313E-03
+ gam= 0.223 trial= 0.532  step= 0.711 mean= 0.532
+ gam= 0.254 g(H,U,f)=  0.593E-02 0.513E-03 0.000E+00 ort(H,U,f) =-0.178E-03-0.122E-03 0.000E+00
+CGA:   5    -0.240964651111E+04   -0.89816E-02   -0.90035E-02   480   0.645E-02-0.300E-03
+ gam= 0.254 trial= 0.541  step= 0.689 mean= 0.541
+ gam= 0.401 g(H,U,f)=  0.222E-02 0.360E-03 0.000E+00 ort(H,U,f) = 0.197E-03-0.231E-03 0.000E+00
+CGA:   6    -0.240964870335E+04   -0.21922E-02   -0.21947E-02   480   0.258E-02-0.339E-04
+ gam= 0.401 trial= 0.549  step= 0.621 mean= 0.549
+ gam= 0.336 g(H,U,f)=  0.778E-03 0.885E-04 0.000E+00 ort(H,U,f) = 0.540E-04-0.662E-04 0.000E+00
+CGA:   7    -0.240964950073E+04   -0.79738E-03   -0.79803E-03   480   0.866E-03-0.121E-04
+ gam= 0.336 trial= 0.552  step= 0.721 mean= 0.552
+ gam= 0.306 g(H,U,f)=  0.243E-03 0.220E-04 0.000E+00 ort(H,U,f) =-0.121E-05-0.280E-05 0.000E+00
+CGA:   8    -0.240964981152E+04   -0.31079E-03   -0.31107E-03   480   0.265E-03-0.401E-05
+ gam= 0.306 trial= 0.561  step= 0.721 mean= 0.561
+ gam= 0.372 g(H,U,f)=  0.890E-04 0.971E-05 0.000E+00 ort(H,U,f) = 0.456E-05-0.634E-05 0.000E+00
+CGA:   9    -0.240964990655E+04   -0.95028E-04   -0.95162E-04   480   0.987E-04-0.178E-05
+ gam= 0.372 trial= 0.569  step= 0.698 mean= 0.569
+ gam= 0.373 g(H,U,f)=  0.326E-04 0.429E-05 0.000E+00 ort(H,U,f) = 0.235E-05-0.284E-05 0.000E+00
+CGA:  10    -0.240964994072E+04   -0.34168E-04   -0.34207E-04   480   0.368E-04-0.487E-06
+ gam= 0.373 trial= 0.575  step= 0.706 mean= 0.575
+ gam= 0.415 g(H,U,f)=  0.137E-04 0.162E-05 0.000E+00 ort(H,U,f) = 0.185E-06-0.349E-06 0.000E+00
+CGA:  11    -0.240964995365E+04   -0.12935E-04   -0.12946E-04   480   0.153E-04-0.164E-06
+ gam= 0.415 trial= 0.582  step= 0.735 mean= 0.582
+ gam= 0.414 g(H,U,f)=  0.580E-05 0.526E-06 0.000E+00 ort(H,U,f) =-0.209E-06-0.764E-07 0.000E+00
+CGA:  12    -0.240964995923E+04   -0.55729E-05   -0.55948E-05   480   0.632E-05-0.286E-06
+ gam= 0.414 trial= 0.589  step= 0.801 mean= 0.589
+   4 F= -.24096500E+04 E0= -.24096500E+04  d E =-.649419E-02  mag=     2.0000
+ BRION: g(F)=  0.195E+00 g(S)=  0.000E+00 retain N=  2 mean eig= 0.15
+ eig:   0.191  0.105
+ bond charge predicted
+ writing wavefunctions
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      ALGO=A and IALGO=5X tend to fail with the tetrahedron method           |
+|      (e.g. Bloechls method ISMEAR=-5 is not variational)                    |
+|      please switch to IMSEAR=0-n, except for DOS calculations               |
+|      For DOS calculations use IALGO=53 after preconverging with ISMEAR>=0   |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.710E+00 0.371E-01 0.000E+00 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.240933004458E+04    0.31991E+00    0.00000E+00   480   0.747E+00 0.000E+00
+ gam= 0.000 trial= 0.600  step= 0.798 mean= 0.600
+ gam= 0.202 g(H,U,f)=  0.128E+00 0.233E-01 0.000E+00 ort(H,U,f) = 0.725E-02-0.189E-01 0.000E+00
+CGA:   2    -0.240962728860E+04   -0.29724E+00   -0.29808E+00   480   0.151E+00-0.117E-01
+ gam= 0.202 trial= 0.610  step= 0.576 mean= 0.610
+ gam= 0.166 g(H,U,f)=  0.210E-01 0.408E-02 0.000E+00 ort(H,U,f) = 0.563E-02-0.443E-02 0.000E+00
+CGA:   3    -0.240967010572E+04   -0.42817E-01   -0.42858E-01   480   0.251E-01 0.120E-02
+ gam= 0.166 trial= 0.608  step= 0.575 mean= 0.608
+ gam= 0.225 g(H,U,f)=  0.491E-02 0.743E-03 0.000E+00 ort(H,U,f) = 0.700E-03-0.619E-03 0.000E+00
+CGA:   4    -0.240967736898E+04   -0.72633E-02   -0.72656E-02   480   0.566E-02 0.811E-04
+ gam= 0.225 trial= 0.607  step= 0.663 mean= 0.607
+ gam= 0.253 g(H,U,f)=  0.131E-02 0.117E-03 0.000E+00 ort(H,U,f) = 0.102E-03-0.110E-03 0.000E+00
+CGA:   5    -0.240967925011E+04   -0.18811E-02   -0.18813E-02   480   0.143E-02-0.738E-05
+ gam= 0.253 trial= 0.609  step= 0.768 mean= 0.609
+ gam= 0.351 g(H,U,f)=  0.450E-03 0.516E-04 0.000E+00 ort(H,U,f) = 0.264E-04-0.326E-04 0.000E+00
+CGA:   6    -0.240967979791E+04   -0.54780E-03   -0.54822E-03   480   0.501E-03-0.621E-05
+ gam= 0.351 trial= 0.617  step= 0.767 mean= 0.617
+ gam= 0.382 g(H,U,f)=  0.169E-03 0.231E-04 0.000E+00 ort(H,U,f) = 0.129E-04-0.143E-04 0.000E+00
+CGA:   7    -0.240967998913E+04   -0.19121E-03   -0.19133E-03   480   0.192E-03-0.142E-05
+ gam= 0.382 trial= 0.625  step= 0.727 mean= 0.625
+ gam= 0.315 g(H,U,f)=  0.539E-04 0.647E-05 0.000E+00 ort(H,U,f) = 0.428E-05-0.443E-05 0.000E+00
+CGA:   8    -0.240968005855E+04   -0.69426E-04   -0.69437E-04   480   0.604E-04-0.155E-06
+ gam= 0.315 trial= 0.630  step= 0.722 mean= 0.630
+ gam= 0.368 g(H,U,f)=  0.193E-04 0.288E-05 0.000E+00 ort(H,U,f) = 0.316E-05-0.295E-05 0.000E+00
+CGA:   9    -0.240968008032E+04   -0.21767E-04   -0.21759E-04   480   0.222E-04 0.205E-06
+ gam= 0.368 trial= 0.634  step= 0.701 mean= 0.634
+ gam= 0.373 g(H,U,f)=  0.739E-05 0.905E-06 0.000E+00 ort(H,U,f) = 0.745E-06-0.832E-06 0.000E+00
+CGA:  10    -0.240968008813E+04   -0.78120E-05   -0.78161E-05   480   0.830E-05-0.871E-07
+ gam= 0.373 trial= 0.638  step= 0.865 mean= 0.638
+   5 F= -.24096801E+04 E0= -.24096801E+04  d E =-.301289E-01  mag=     2.0000
+ BRION: g(F)=  0.173E-01 g(S)=  0.000E+00 retain N=  2 mean eig= 2.19
+ eig:   0.297  4.093
+ bond charge predicted
+ writing wavefunctions
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      ALGO=A and IALGO=5X tend to fail with the tetrahedron method           |
+|      (e.g. Bloechls method ISMEAR=-5 is not variational)                    |
+|      please switch to IMSEAR=0-n, except for DOS calculations               |
+|      For DOS calculations use IALGO=53 after preconverging with ISMEAR>=0   |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.184E+00 0.148E-01 0.000E+00 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.240959356792E+04    0.86512E-01    0.00000E+00   480   0.198E+00 0.000E+00
+ gam= 0.000 trial= 0.649  step= 0.698 mean= 0.649
+ gam= 0.315 g(H,U,f)=  0.488E-01 0.136E-01 0.000E+00 ort(H,U,f) = 0.963E-02-0.992E-02 0.000E+00
+CGA:   2    -0.240966274678E+04   -0.69179E-01   -0.69183E-01   480   0.624E-01-0.290E-03
+ gam= 0.315 trial= 0.652  step= 0.535 mean= 0.652
+ gam= 0.134 g(H,U,f)=  0.710E-02 0.124E-02 0.000E+00 ort(H,U,f) = 0.239E-02-0.154E-02 0.000E+00
+CGA:   3    -0.240967931675E+04   -0.16570E-01   -0.16673E-01   480   0.834E-02 0.850E-03
+ gam= 0.134 trial= 0.646  step= 0.615 mean= 0.646
+ gam= 0.192 g(H,U,f)=  0.143E-02 0.172E-03 0.000E+00 ort(H,U,f) = 0.139E-03-0.136E-03 0.000E+00
+CGA:   4    -0.240968191806E+04   -0.26013E-02   -0.26014E-02   480   0.160E-02 0.336E-05
+ gam= 0.192 trial= 0.644  step= 0.769 mean= 0.644
+ gam= 0.225 g(H,U,f)=  0.340E-03 0.202E-04 0.000E+00 ort(H,U,f) = 0.196E-04-0.215E-04 0.000E+00
+CGA:   5    -0.240968253344E+04   -0.61538E-03   -0.61547E-03   480   0.360E-03-0.192E-05
+ gam= 0.225 trial= 0.650  step= 0.945 mean= 0.650
+ gam= 0.340 g(H,U,f)=  0.109E-03 0.131E-04 0.000E+00 ort(H,U,f) = 0.480E-05-0.581E-05 0.000E+00
+CGA:   6    -0.240968270341E+04   -0.16998E-03   -0.17006E-03   480   0.122E-03-0.101E-05
+ gam= 0.340 trial= 0.665  step= 0.817 mean= 0.665
+ gam= 0.388 g(H,U,f)=  0.397E-04 0.779E-05 0.000E+00 ort(H,U,f) = 0.483E-05-0.486E-05 0.000E+00
+CGA:   7    -0.240968275327E+04   -0.49855E-04   -0.49856E-04   480   0.475E-04-0.323E-07
+ gam= 0.388 trial= 0.673  step= 0.645 mean= 0.673
+ gam= 0.331 g(H,U,f)=  0.137E-04 0.201E-05 0.000E+00 ort(H,U,f) = 0.204E-05-0.212E-05 0.000E+00
+CGA:   8    -0.240968276857E+04   -0.15305E-04   -0.15304E-04   480   0.157E-04-0.837E-07
+ gam= 0.331 trial= 0.671  step= 0.749 mean= 0.671
+ gam= 0.322 g(H,U,f)=  0.463E-05 0.441E-06 0.000E+00 ort(H,U,f) = 0.618E-06-0.527E-06 0.000E+00
+CGA:   9    -0.240968277445E+04   -0.58810E-05   -0.58775E-05   480   0.507E-05 0.914E-07
+ gam= 0.322 trial= 0.675  step= 0.891 mean= 0.675
+   6 F= -.24096828E+04 E0= -.24096828E+04  d E =-.268632E-02  mag=     2.0000
+ BRION: g(F)=  0.135E-01 g(S)=  0.000E+00 retain N=  3 mean eig= 2.01
+ eig:   0.149  0.149  5.747
+ bond charge predicted
+ writing wavefunctions
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      ALGO=A and IALGO=5X tend to fail with the tetrahedron method           |
+|      (e.g. Bloechls method ISMEAR=-5 is not variational)                    |
+|      please switch to IMSEAR=0-n, except for DOS calculations               |
+|      For DOS calculations use IALGO=53 after preconverging with ISMEAR>=0   |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.617E-01 0.386E-02 0.000E+00 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.240965415447E+04    0.28614E-01    0.00000E+00   480   0.655E-01 0.000E+00
+ gam= 0.000 trial= 0.686  step= 0.776 mean= 0.686
+ gam= 0.243 g(H,U,f)=  0.133E-01 0.262E-02 0.000E+00 ort(H,U,f) = 0.211E-02-0.217E-02 0.000E+00
+CGA:   2    -0.240967958555E+04   -0.25431E-01   -0.25429E-01   480   0.159E-01-0.637E-04
+ gam= 0.243 trial= 0.691  step= 0.567 mean= 0.691
+ gam= 0.158 g(H,U,f)=  0.205E-02 0.455E-03 0.000E+00 ort(H,U,f) = 0.506E-03-0.426E-03 0.000E+00
+CGA:   3    -0.240968408020E+04   -0.44946E-02   -0.45040E-02   480   0.251E-02 0.803E-04
+ gam= 0.158 trial= 0.684  step= 0.558 mean= 0.684
+ gam= 0.200 g(H,U,f)=  0.441E-03 0.607E-04 0.000E+00 ort(H,U,f) = 0.756E-04-0.732E-04 0.000E+00
+CGA:   4    -0.240968478313E+04   -0.70293E-03   -0.70311E-03   480   0.502E-03 0.236E-05
+ gam= 0.200 trial= 0.678  step= 0.758 mean= 0.678
+ gam= 0.233 g(H,U,f)=  0.107E-03 0.103E-04 0.000E+00 ort(H,U,f) = 0.885E-05-0.910E-05 0.000E+00
+CGA:   5    -0.240968497351E+04   -0.19038E-03   -0.19039E-03   480   0.117E-03-0.256E-06
+ gam= 0.233 trial= 0.682  step= 0.919 mean= 0.682
+ gam= 0.333 g(H,U,f)=  0.354E-04 0.354E-05 0.000E+00 ort(H,U,f) = 0.285E-05-0.276E-05 0.000E+00
+CGA:   6    -0.240968502727E+04   -0.53763E-04   -0.53745E-04   480   0.390E-04 0.846E-07
+ gam= 0.333 trial= 0.694  step= 0.883 mean= 0.694
+ gam= 0.364 g(H,U,f)=  0.126E-04 0.157E-05 0.000E+00 ort(H,U,f) = 0.622E-06-0.575E-06 0.000E+00
+CGA:   7    -0.240968504450E+04   -0.17226E-04   -0.17221E-04   480   0.142E-04 0.469E-07
+ gam= 0.364 trial= 0.703  step= 0.816 mean= 0.703
+ gam= 0.363 g(H,U,f)=  0.465E-05 0.503E-06 0.000E+00 ort(H,U,f) = 0.425E-06-0.492E-06 0.000E+00
+CGA:   8    -0.240968505030E+04   -0.57969E-05   -0.58006E-05   480   0.516E-05-0.671E-07
+ gam= 0.363 trial= 0.709  step= 0.882 mean= 0.709
+   7 F= -.24096851E+04 E0= -.24096851E+04  d E =-.227584E-02  mag=     2.0000
+ BRION: g(F)=  0.313E-02 g(S)=  0.000E+00 retain N=  3 mean eig= 1.89
+ eig:   0.244  0.244  5.186
+ bond charge predicted
+ writing wavefunctions
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      ALGO=A and IALGO=5X tend to fail with the tetrahedron method           |
+|      (e.g. Bloechls method ISMEAR=-5 is not variational)                    |
+|      please switch to IMSEAR=0-n, except for DOS calculations               |
+|      For DOS calculations use IALGO=53 after preconverging with ISMEAR>=0   |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.257E-01 0.196E-02 0.000E+00 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.240967259442E+04    0.12450E-01    0.00000E+00   480   0.277E-01 0.000E+00
+ gam= 0.000 trial= 0.718  step= 0.748 mean= 0.718
+ gam= 0.359 g(H,U,f)=  0.749E-02 0.244E-02 0.000E+00 ort(H,U,f) = 0.151E-02-0.152E-02 0.000E+00
+CGA:   2    -0.240968294374E+04   -0.10349E-01   -0.10349E-01   480   0.993E-02-0.252E-05
+ gam= 0.359 trial= 0.719  step= 0.491 mean= 0.719
+ gam= 0.107 g(H,U,f)=  0.943E-03 0.118E-03 0.000E+00 ort(H,U,f) = 0.297E-03-0.218E-03 0.000E+00
+CGA:   3    -0.240968536016E+04   -0.24164E-02   -0.24368E-02   480   0.106E-02 0.791E-04
+ gam= 0.107 trial= 0.708  step= 0.749 mean= 0.708
+ gam= 0.195 g(H,U,f)=  0.191E-03 0.158E-04 0.000E+00 ort(H,U,f) = 0.122E-04-0.136E-04 0.000E+00
+CGA:   4    -0.240968576059E+04   -0.40042E-03   -0.40046E-03   480   0.207E-03-0.141E-05
+ gam= 0.195 trial= 0.710  step= 0.824 mean= 0.710
+ gam= 0.286 g(H,U,f)=  0.549E-04 0.436E-05 0.000E+00 ort(H,U,f) = 0.566E-05-0.553E-05 0.000E+00
+CGA:   5    -0.240968584566E+04   -0.85070E-04   -0.85058E-04   480   0.592E-04 0.139E-06
+ gam= 0.286 trial= 0.715  step= 0.878 mean= 0.715
+ gam= 0.354 g(H,U,f)=  0.185E-04 0.243E-05 0.000E+00 ort(H,U,f) = 0.178E-05-0.171E-05 0.000E+00
+CGA:   6    -0.240968587167E+04   -0.26008E-04   -0.26004E-04   480   0.209E-04 0.622E-07
+ gam= 0.354 trial= 0.724  step= 0.814 mean= 0.724
+ gam= 0.384 g(H,U,f)=  0.664E-05 0.140E-05 0.000E+00 ort(H,U,f) = 0.682E-06-0.911E-06 0.000E+00
+CGA:   7    -0.240968588019E+04   -0.85228E-05   -0.85333E-05   480   0.804E-05-0.230E-06
+ gam= 0.384 trial= 0.728  step= 0.699 mean= 0.728
+   8 F= -.24096859E+04 E0= -.24096859E+04  d E =-.829892E-03  mag=     2.0000
+ BRION: g(F)=  0.149E-02 g(S)=  0.000E+00 retain N=  2 mean eig= 0.46
+ eig:   0.218  0.710
+ bond charge predicted
+ writing wavefunctions
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      ALGO=A and IALGO=5X tend to fail with the tetrahedron method           |
+|      (e.g. Bloechls method ISMEAR=-5 is not variational)                    |
+|      please switch to IMSEAR=0-n, except for DOS calculations               |
+|      For DOS calculations use IALGO=53 after preconverging with ISMEAR>=0   |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.113E-01 0.745E-03 0.000E+00 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.240968047027E+04    0.54014E-02    0.00000E+00   480   0.120E-01 0.000E+00
+ gam= 0.000 trial= 0.727  step= 0.788 mean= 0.727
+ gam= 0.279 g(H,U,f)=  0.265E-02 0.695E-03 0.000E+00 ort(H,U,f) = 0.443E-03-0.447E-03 0.000E+00
+CGA:   2    -0.240968520354E+04   -0.47333E-02   -0.47334E-02   480   0.335E-02-0.406E-05
+ gam= 0.279 trial= 0.730  step= 0.511 mean= 0.730
+ gam= 0.162 g(H,U,f)=  0.452E-03 0.909E-04 0.000E+00 ort(H,U,f) = 0.141E-03-0.123E-03 0.000E+00
+CGA:   3    -0.240968605507E+04   -0.85153E-03   -0.85510E-03   480   0.543E-03 0.182E-04
+ gam= 0.162 trial= 0.719  step= 0.622 mean= 0.719
+ gam= 0.185 g(H,U,f)=  0.904E-04 0.974E-05 0.000E+00 ort(H,U,f) = 0.115E-04-0.113E-04 0.000E+00
+CGA:   4    -0.240968622494E+04   -0.16986E-03   -0.16987E-03   480   0.100E-03 0.161E-06
+ gam= 0.185 trial= 0.714  step= 0.830 mean= 0.714
+ gam= 0.264 g(H,U,f)=  0.234E-04 0.301E-05 0.000E+00 ort(H,U,f) = 0.268E-05-0.287E-05 0.000E+00
+CGA:   5    -0.240968626650E+04   -0.41563E-04   -0.41571E-04   480   0.265E-04-0.194E-06
+ gam= 0.264 trial= 0.720  step= 0.846 mean= 0.720
+ gam= 0.441 g(H,U,f)=  0.951E-05 0.217E-05 0.000E+00 ort(H,U,f) = 0.179E-05-0.164E-05 0.000E+00
+CGA:   6    -0.240968627768E+04   -0.11178E-04   -0.11169E-04   480   0.117E-04 0.148E-06
+ gam= 0.441 trial= 0.726  step= 0.680 mean= 0.726
+ gam= 0.357 g(H,U,f)=  0.352E-05 0.650E-06 0.000E+00 ort(H,U,f) = 0.479E-06-0.549E-06 0.000E+00
+CGA:   7    -0.240968628167E+04   -0.39936E-05   -0.39920E-05   480   0.417E-05-0.703E-07
+ gam= 0.357 trial= 0.724  step= 0.764 mean= 0.724
+   9 F= -.24096863E+04 E0= -.24096863E+04  d E =-.401481E-03  mag=     2.0000
+ BRION: g(F)=  0.593E-03 g(S)=  0.000E+00 retain N=  3 mean eig= 2.63
+ eig:   7.651  0.191  0.056
+ bond charge predicted
+ writing wavefunctions
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      ALGO=A and IALGO=5X tend to fail with the tetrahedron method           |
+|      (e.g. Bloechls method ISMEAR=-5 is not variational)                    |
+|      please switch to IMSEAR=0-n, except for DOS calculations               |
+|      For DOS calculations use IALGO=53 after preconverging with ISMEAR>=0   |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.140E-01 0.977E-03 0.000E+00 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.240967896925E+04    0.73084E-02    0.00000E+00   480   0.150E-01 0.000E+00
+ gam= 0.000 trial= 0.726  step= 0.812 mean= 0.726
+ gam= 0.327 g(H,U,f)=  0.374E-02 0.114E-02 0.000E+00 ort(H,U,f) = 0.648E-03-0.662E-03 0.000E+00
+CGA:   2    -0.240968504486E+04   -0.60756E-02   -0.60765E-02   480   0.489E-02-0.138E-04
+ gam= 0.327 trial= 0.730  step= 0.488 mean= 0.730
+ gam= 0.125 g(H,U,f)=  0.532E-03 0.782E-04 0.000E+00 ort(H,U,f) = 0.168E-03-0.136E-03 0.000E+00
+CGA:   3    -0.240968622869E+04   -0.11838E-02   -0.11921E-02   480   0.610E-03 0.321E-04
+ gam= 0.125 trial= 0.718  step= 0.711 mean= 0.718
+ gam= 0.236 g(H,U,f)=  0.129E-03 0.146E-04 0.000E+00 ort(H,U,f) = 0.137E-04-0.141E-04 0.000E+00
+CGA:   4    -0.240968644692E+04   -0.21823E-03   -0.21823E-03   480   0.144E-03-0.411E-06
+ gam= 0.236 trial= 0.718  step= 0.772 mean= 0.718
+ gam= 0.269 g(H,U,f)=  0.349E-04 0.389E-05 0.000E+00 ort(H,U,f) = 0.437E-05-0.474E-05 0.000E+00
+CGA:   5    -0.240968650238E+04   -0.55454E-04   -0.55463E-04   480   0.387E-04-0.372E-06
+ gam= 0.269 trial= 0.720  step= 0.861 mean= 0.720
+ gam= 0.381 g(H,U,f)=  0.125E-04 0.229E-05 0.000E+00 ort(H,U,f) = 0.189E-05-0.170E-05 0.000E+00
+CGA:   6    -0.240968651902E+04   -0.16645E-04   -0.16632E-04   480   0.148E-04 0.187E-06
+ gam= 0.381 trial= 0.727  step= 0.725 mean= 0.727
+ gam= 0.335 g(H,U,f)=  0.422E-05 0.732E-06 0.000E+00 ort(H,U,f) = 0.422E-06-0.541E-06 0.000E+00
+CGA:   7    -0.240968652440E+04   -0.53752E-05   -0.53751E-05   480   0.495E-05-0.119E-06
+ gam= 0.335 trial= 0.727  step= 0.707 mean= 0.727
+  10 F= -.24096865E+04 E0= -.24096865E+04  d E =-.242728E-03  mag=     2.0000
+ BRION: g(F)=  0.605E-03 g(S)=  0.000E+00 retain N=  3 mean eig= 1.21
+ eig:   2.806  0.415  0.414
+ bond charge predicted
+ writing wavefunctions
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      ALGO=A and IALGO=5X tend to fail with the tetrahedron method           |
+|      (e.g. Bloechls method ISMEAR=-5 is not variational)                    |
+|      please switch to IMSEAR=0-n, except for DOS calculations               |
+|      For DOS calculations use IALGO=53 after preconverging with ISMEAR>=0   |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.392E-02 0.188E-03 0.000E+00 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.240968455776E+04    0.19613E-02    0.00000E+00   480   0.411E-02 0.000E+00
+ gam= 0.000 trial= 0.726  step= 0.835 mean= 0.726
+ gam= 0.185 g(H,U,f)=  0.663E-03 0.980E-04 0.000E+00 ort(H,U,f) = 0.949E-04-0.965E-04 0.000E+00
+CGA:   2    -0.240968627436E+04   -0.17166E-02   -0.17166E-02   480   0.761E-03-0.162E-05
+ gam= 0.185 trial= 0.732  step= 0.617 mean= 0.732
+ gam= 0.140 g(H,U,f)=  0.904E-04 0.161E-04 0.000E+00 ort(H,U,f) = 0.180E-04-0.180E-04 0.000E+00
+CGA:   3    -0.240968650901E+04   -0.23465E-03   -0.23468E-03   480   0.106E-03-0.197E-07
+ gam= 0.140 trial= 0.726  step= 0.631 mean= 0.726
+ gam= 0.248 g(H,U,f)=  0.216E-04 0.479E-05 0.000E+00 ort(H,U,f) = 0.442E-05-0.420E-05 0.000E+00
+CGA:   4    -0.240968654258E+04   -0.33575E-04   -0.33587E-04   480   0.264E-04 0.220E-06
+ gam= 0.248 trial= 0.721  step= 0.614 mean= 0.721
+ gam= 0.288 g(H,U,f)=  0.668E-05 0.906E-06 0.000E+00 ort(H,U,f) = 0.134E-05-0.128E-05 0.000E+00
+CGA:   5    -0.240968655069E+04   -0.81091E-05   -0.81122E-05   480   0.759E-05 0.547E-07
+ gam= 0.288 trial= 0.716  step= 0.839 mean= 0.716
+  11 F= -.24096866E+04 E0= -.24096866E+04  d E =-.262947E-04  mag=     2.0000
+ BRION: g(F)=  0.595E-03 g(S)=  0.000E+00 retain N=  4 mean eig= 1.95
+ eig:   6.177  0.966  0.321  0.321
+ bond charge predicted
+ writing wavefunctions
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      ALGO=A and IALGO=5X tend to fail with the tetrahedron method           |
+|      (e.g. Bloechls method ISMEAR=-5 is not variational)                    |
+|      please switch to IMSEAR=0-n, except for DOS calculations               |
+|      For DOS calculations use IALGO=53 after preconverging with ISMEAR>=0   |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.534E-02 0.337E-03 0.000E+00 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.240968373888E+04    0.28037E-02    0.00000E+00   480   0.568E-02 0.000E+00
+ gam= 0.000 trial= 0.722  step= 0.841 mean= 0.722
+ gam= 0.343 g(H,U,f)=  0.144E-02 0.507E-03 0.000E+00 ort(H,U,f) = 0.256E-03-0.259E-03 0.000E+00
+CGA:   2    -0.240968612739E+04   -0.23885E-02   -0.23887E-02   480   0.195E-02-0.303E-05
+ gam= 0.343 trial= 0.728  step= 0.458 mean= 0.728
+ gam= 0.107 g(H,U,f)=  0.189E-03 0.195E-04 0.000E+00 ort(H,U,f) = 0.571E-04-0.493E-04 0.000E+00
+CGA:   3    -0.240968657036E+04   -0.44297E-03   -0.44565E-03   480   0.209E-03 0.782E-05
+ gam= 0.107 trial= 0.714  step= 0.845 mean= 0.714
+ gam= 0.212 g(H,U,f)=  0.407E-04 0.361E-05 0.000E+00 ort(H,U,f) = 0.249E-05-0.270E-05 0.000E+00
+CGA:   4    -0.240968665903E+04   -0.88671E-04   -0.88686E-04   480   0.443E-04-0.211E-06
+ gam= 0.212 trial= 0.721  step= 0.804 mean= 0.721
+ gam= 0.361 g(H,U,f)=  0.137E-04 0.229E-05 0.000E+00 ort(H,U,f) = 0.196E-05-0.211E-05 0.000E+00
+CGA:   5    -0.240968667682E+04   -0.17791E-04   -0.17796E-04   480   0.160E-04-0.143E-06
+ gam= 0.361 trial= 0.725  step= 0.739 mean= 0.725
+ gam= 0.355 g(H,U,f)=  0.487E-05 0.799E-06 0.000E+00 ort(H,U,f) = 0.774E-06-0.719E-06 0.000E+00
+CGA:   6    -0.240968668270E+04   -0.58838E-05   -0.58835E-05   480   0.567E-05 0.554E-07
+ gam= 0.355 trial= 0.726  step= 0.760 mean= 0.726
+  12 F= -.24096867E+04 E0= -.24096867E+04  d E =-.132013E-03  mag=     2.0000
+ BRION: g(F)=  0.644E-04 g(S)=  0.000E+00 retain N=  4 mean eig= 2.42
+ eig:   6.960  1.741  0.486  0.486
+ reached required accuracy - stopping structural energy minimisation
+ writing wavefunctions

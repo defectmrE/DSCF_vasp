@@ -1,0 +1,56 @@
+ running   16 mpi-ranks, with    1 threads/rank, on    4 nodes
+ distrk:  each k-point on   16 cores,    1 groups
+ distr:  one band on    1 cores,   16 groups
+ OpenACC runtime initialized ...   16 GPUs detected
+ vasp.6.4.3 19Mar24 (build Jun 20 2024 15:24:57) gamma-only                      
+ POSCAR found type information on POSCAR SiC 
+ POSCAR found :  2 types and     215 ions
+ Reading from existing POTCAR
+ scaLAPACK will be used selectively (only on CPU)
+ Reading from existing POTCAR
+ LDA part: xc-table for (Slater+PW92), standard interpolation
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     The number of bands has been changed from the values supplied in        |
+|     the INCAR file. This is a result of running the parallel version.       |
+|     The orbitals not found in the WAVECAR file will be initialized with     |
+|     random numbers, which is usually adequate. For correlated               |
+|     calculations, however, you should redo the groundstate calculation.     |
+|     I found NBANDS = 450. Now, NBANDS = 464.                                |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ WAVECAR not read
+ WARNING: random wavefunctions but no delay for mixing, default for NELMDL
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.662164418686E+04    0.66216E+04   -0.43444E+05  1872   0.150E+03
+DAV:   2    -0.128329123626E+04   -0.79049E+04   -0.77018E+04  2544   0.379E+02
+DAV:   3    -0.196620206886E+04   -0.68291E+03   -0.67904E+03  2048   0.109E+02
+DAV:   4    -0.198283265074E+04   -0.16631E+02   -0.16589E+02  2016   0.201E+01
+DAV:   5    -0.198329754607E+04   -0.46490E+00   -0.46451E+00  2048   0.304E+00    0.656E+01
+DAV:   6    -0.194123081163E+04    0.42067E+02   -0.66462E+01  1952   0.114E+01    0.356E+01
+DAV:   7    -0.194267259155E+04   -0.14418E+01   -0.56220E+01  1952   0.102E+01    0.118E+01
+DAV:   8    -0.194344199098E+04   -0.76940E+00   -0.41306E+00  2000   0.351E+00    0.297E+00
+DAV:   9    -0.194354350003E+04   -0.10151E+00   -0.25780E-01  1968   0.110E+00    0.147E+00
+DAV:  10    -0.194353655266E+04    0.69474E-02   -0.10672E-01  1984   0.593E-01    0.400E-01
+DAV:  11    -0.194353360219E+04    0.29505E-02   -0.68981E-03  1952   0.164E-01    0.140E-01
+DAV:  12    -0.194353414971E+04   -0.54752E-03   -0.20549E-03  1968   0.756E-02    0.593E-02
+DAV:  13    -0.194353436307E+04   -0.21335E-03   -0.29230E-04  2000   0.334E-02    0.303E-02
+DAV:  14    -0.194353442619E+04   -0.63118E-04   -0.65518E-05  1952   0.163E-02    0.142E-02
+DAV:  15    -0.194353444421E+04   -0.18026E-04   -0.15220E-05  1136   0.849E-03    0.477E-03
+DAV:  16    -0.194353444691E+04   -0.27027E-05   -0.37703E-06  1024   0.343E-03
+   1 F= -.19435344E+04 E0= -.19435344E+04  d E =-.919607E-19  mag=     2.0006
+ writing wavefunctions
+ PROFILE, used timers:     341
