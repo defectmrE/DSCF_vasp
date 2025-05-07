@@ -40,4 +40,4 @@ To fix the DSCF behavior in VASP 5.4.4, apply the provided patch file:
 ```bash
 patch -p1 < subrot_fix.patch
 ```
-See details in Bulancea-Lindvall, O., Davidsson, J., Ivanov, I. G., Gali, A., Ivády, V., Armiento, R., & Abrikosov, I. A. (2024). Temperature dependence of the AB lines and optical properties of the carbon–antisite-vacancy pair in 4H-SiC. Physical Review Applied, 22, 034056. https://doi.org/10.1103/PhysRevApplied.22.034056"
+See details of the batch in Bulancea-Lindvall, O., Davidsson, J., Ivanov, I. G., Gali, A., Ivády, V., Armiento, R., & Abrikosov, I. A. (2024). Temperature dependence of the AB lines and optical properties of the carbon–antisite-vacancy pair in 4H-SiC. Physical Review Applied, 22, 034056. https://doi.org/10.1103/PhysRevApplied.22.034056"
